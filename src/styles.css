@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.conteudo {
+  background-color: rgb(14, 14, 14);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo.in-component {
+  background-color: white;
+  min-height: 330px;
+  width: 200px;
+  margin: 14px;
+}
+
+.conteudo #cabecalho {
+  height: 55px;
+}
+
+.conteudo #cabecalho h1 {
+  color: #ccc;
+  padding: 10px 5vw;
+  font-family: "Alfa Slab One", cursive;
+  font-weight: 300;
+}
+
+.conteudo #conteudo-principal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.conteudo #conteudo-principal #principal {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.conteudo #conteudo-principal #secundario {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px 0;
+}
+
+
+
+button {
+	width: 62%;
+	height: 30px;
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #a099a05c;
+	background-size: 200% 100%;
+	background-position: left;
+	background-repeat: no-repeat;
+	transition: 500ms;
+  color: rgb(30, 29, 29);
+}
