@@ -7,4 +7,10 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "Angular CLI Template";
+
+  sidebarActive =false;
+
+ changeSidebar() {
+  this.sidebarActive = !this.sidebarActive;
+  }
 }

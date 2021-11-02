@@ -35,6 +35,13 @@
   font-weight: 300;
 }
 
+h1 { 
+   color: #ccc;
+  padding: 10px 5vw;
+  font-family: "Alfa Slab One", cursive;
+  font-weight: 300;
+}
+
 .conteudo #conteudo-principal {
   width: 100%;
   display: flex;
