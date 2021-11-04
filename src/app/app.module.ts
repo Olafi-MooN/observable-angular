@@ -7,7 +7,7 @@ import { PaiComponent } from './components/observable/pai.component';
 import { FilhoComponent } from './components/observable/filho/filho.component';
 import { IrmaoComponent } from './components/observable/irmao/irmao.component';
 import { ReactiveFormComponent } from './components/formulario/reactive-form/reactive-form.component';
-import { SidebarRightComponent } from './components/sidebar-right/sidebar-right.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { SidebarRightComponent } from './components/sidebar-right/sidebar-right.
     FilhoComponent,
     IrmaoComponent,
     ReactiveFormComponent,
-    SidebarRightComponent
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-sidebar-right',
-  templateUrl: './sidebar-right.component.html',
-  styleUrls: ['./sidebar-right.component.css']
+  selector: 'app-sidebar',
+  templateUrl: './sidebar.component.html',
+  styleUrls: ['./sidebar.component.css']
 })
-export class SidebarRightComponent implements OnInit {
+export class SidebarComponent implements OnInit {
 
   sidebarActive = false;
 
