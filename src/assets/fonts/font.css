@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'alef-all';
+  src: url("src/assets/fonts/Reckoner.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Reckoner_Bold';
+  src: url("src/assets/fonts/Reckoner_Bold.ttf") format("truetype");
+}
